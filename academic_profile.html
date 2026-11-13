@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>本吉 葉 | Yo Motoyoshi</title>
+    <meta name="description" content="東京大学大学院 修士課程 イタリア語イタリア文学専攻 本吉 葉の自己紹介と研究テーマ">
+    
+    <!-- Google Fonts: Noto Serif JP for headings (academic feel) and Noto Sans JP for body text -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500&family=Noto+Serif+JP:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        serif: ['"Noto Serif JP"', 'serif'],
+                        sans: ['"Noto Sans JP"', 'sans-serif'],
+                    },
+                    colors: {
+                        paper: '#FAFAFA',
+                        ink: '#2c2c2c',
+                        accent: '#4B5563', // Slate-600
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: theme('colors.paper');
+            color: theme('colors.ink');
+        }
+    </style>
+</head>
+<body class="antialiased min-h-screen flex flex-col items-center justify-center bg-paper">
+
+    <main class="px-6 text-center w-full max-w-3xl mx-auto">
+        <h1 class="font-serif text-5xl md:text-6xl lg:text-7xl font-medium tracking-[0.2em] mb-8 text-ink ml-[0.2em]">
+            本吉 葉
+        </h1>
+        <div class="h-px w-12 bg-gray-300 mb-8 mx-auto"></div>
+        <p class="font-serif text-lg md:text-xl text-accent tracking-[0.15em] leading-loose">
+            東京大学大学院 修士課程<br>
+            イタリア語イタリア文学専攻
+        </p>
+    </main>
+
+</body>
+</html>
